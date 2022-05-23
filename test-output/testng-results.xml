@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-23T11:48:50Z" name="All Test Suite" finished-at="2022-05-23T11:48:52Z" duration-ms="2193">
+  <suite started-at="2022-05-23T12:08:32Z" name="All Test Suite" finished-at="2022-05-23T12:08:37Z" duration-ms="4341">
     <groups>
     </groups>
-    <test started-at="2022-05-23T11:48:50Z" name="First Test Case" finished-at="2022-05-23T11:48:52Z" duration-ms="2193">
+    <test started-at="2022-05-23T12:08:32Z" name="First Test Case" finished-at="2022-05-23T12:08:37Z" duration-ms="4341">
       <class name="org.example.BankApplicationTesting">
-        <test-method is-config="true" signature="setResponseSpecification()[pri:0, instance:org.example.BankApplicationTesting@4387b79e]" started-at="2022-05-23T11:48:50Z" name="setResponseSpecification" finished-at="2022-05-23T11:48:51Z" duration-ms="744" status="PASS">
+        <test-method is-config="true" signature="setResponseSpecification()[pri:0, instance:org.example.BankApplicationTesting@4387b79e]" started-at="2022-05-23T12:08:32Z" name="setResponseSpecification" finished-at="2022-05-23T12:08:33Z" duration-ms="986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setResponseSpecification -->
-        <test-method signature="createCustomerTest()[pri:0, instance:org.example.BankApplicationTesting@4387b79e]" started-at="2022-05-23T11:48:51Z" name="createCustomerTest" finished-at="2022-05-23T11:48:52Z" duration-ms="1258" status="PASS">
+        <test-method signature="createCustomerTest()[pri:0, instance:org.example.BankApplicationTesting@4387b79e]" started-at="2022-05-23T12:08:33Z" name="createCustomerTest" finished-at="2022-05-23T12:08:37Z" duration-ms="3092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCustomerTest -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:org.example.BankApplicationTesting@4387b79e]" started-at="2022-05-23T11:48:52Z" name="closeReport" finished-at="2022-05-23T11:48:52Z" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:org.example.BankApplicationTesting@4387b79e]" started-at="2022-05-23T12:08:37Z" name="closeReport" finished-at="2022-05-23T12:08:37Z" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->

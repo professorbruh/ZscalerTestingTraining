@@ -5,14 +5,12 @@ import org.json.simple.JSONObject;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.LogStatus;
-
+import org.example.ExtendReportBase;
 import static io.restassured.RestAssured.given;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.specification.ResponseSpecification;
-import junit.framework.Assert;
 
 public class BankApplicationTesting {
 	
@@ -46,13 +44,12 @@ public class BankApplicationTesting {
 		System.out.println("After TEST");
 		JSONObject params = new JSONObject();
 		
-		params.put("name", "Rajagopal");
-		params.put("accountNumber", "123456");
-		params.put("ifscCode", "1234567");
-		params.put("phoneNumber", "9447135064");
+		params.put("name", "ABCDE");
+		params.put("ifscCode", "HDFC000068");
+		params.put("phoneNumber", "123456789");
 		params.put("address", "ghijkl");
 		params.put("branchName", "Thycaud");
-		params.put("emailId", "raj@gmail.com");
+		params.put("emailId", "hello@gmail.com");
 		params.put("password", "hello");
 		
 		ExtendReportBase.test.log(LogStatus.INFO, "Created a request payload",params.toJSONString());

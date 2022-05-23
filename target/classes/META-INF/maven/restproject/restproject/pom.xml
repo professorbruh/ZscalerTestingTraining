@@ -3,7 +3,11 @@
   <groupId>restproject</groupId>
   <artifactId>restproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>restproject</name>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <name>restproject</name>
   
   <dependencies>
   
