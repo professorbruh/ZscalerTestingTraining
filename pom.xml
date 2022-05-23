@@ -3,7 +3,11 @@
   <groupId>restproject</groupId>
   <artifactId>restproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>restproject</name>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <name>restproject</name>
   
   <dependencies>
   
@@ -31,6 +35,15 @@
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
 </dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
