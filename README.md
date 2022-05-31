@@ -1,2 +1,2 @@
 # ZscalerTestingTraining  
-repo for various automation testing code
+Repo for various automation testing code of BankApplication project
